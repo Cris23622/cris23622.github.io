@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peninsula Bowl</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Peninsula Bowl</h1>
+        <p>Celebrating 40 Years of Family Fun!</p>
+    </div>
+    <div class="content">
+        <div class="navbar">
+            <a href="#" onclick="showHome()">Home</a>
+            <a href="#" onclick="showLeagues()">Leagues</a>
+            <a href="#">Food Menu</a>
+            <a href="#">Parties</a>
+            <a href="#">Photos</a>
+            <a href="#">New Players</a>
+        </div>
+        <div id="home" class="page">
+            <div class="menu">
+                <div>
+                    <img src="pizza_image.png" alt="Pizza" style="width:100px;height:auto;">
+                    <p>Check out our all new Cafe Menu!</p>
+                </div>
+            </div>
+        </div>
+        <div id="leagues" class="page" style="display: none;">
+            <div class="team">
+                <h2>Leagues - Team Ranking</h2>
+                <p>Position: 4</p>
+                <p>Team Name: Aupticon Rollers</p>
+                <h3>Members:</h3>
+                <ul>
+                    <li>Richard Brewer</li>
+                    <li>Judith Wong</li>
+                    <li>Philip Moreno</li>
+                    <li>Ryan Harrison</li>
+                    <li>Randy Hart</li>
+                </ul>
+                <p>Games Played: 30</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        function showHome() {
+            document.getElementById('home').style.display = 'block';
+            document.getElementById('leagues').style.display = 'none';
+        }
+
+        function showLeagues() {
+            document.getElementById('home').style.display = 'none';
+            document.getElementById('leagues').style.display = 'block';
+        }
+    </script>
+</body>
+</html>

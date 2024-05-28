@@ -1,0 +1,77 @@
+body {
+    background-color: #E6E6FA;
+    font-family: Arial, sans-serif;
+    background-image: url('background_image.png');
+    background-repeat: repeat;
+}
+
+.header {
+    background-color: #1E90FF;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    background-color: #45a049;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.menu div {
+    text-align: center;
+}
+
+.team {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.team h2 {
+    margin-bottom: 10px;
+}
+
+.team ul {
+    list-style: none;
+    padding: 0;
+}
+
+.team ul li {
+    margin: 5px 0;
+}
+
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
